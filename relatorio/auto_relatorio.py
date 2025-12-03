@@ -5,7 +5,7 @@ import os
 
 # Ler o CSV
 try:
-    df = pd.read_csv("dados.csv")
+    df = pd.read_csv("relatorio\dados.csv")
     print("Dados carregados! Olha o resumo:")
     print(df.describe())
 except:
